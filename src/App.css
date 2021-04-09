@@ -153,6 +153,9 @@ nav a.nav-link {
 }
 
 @media(max-width: 768px){
+  .particles-canvas{
+    display: none;
+  }
   .main-info{
     font-size: 1rem !important;
   }
