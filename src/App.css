@@ -77,7 +77,11 @@ nav a.nav-link {
 .navbar-brand {
   max-width: 17.25rem;
   padding: 0 !important;
-  height: 6rem !important;
+  height: 5rem !important;
+  text-align: center !important;
+  padding-top: 1rem !important;
+  justify-content: center !important;
+  font-size: 2rem !important;
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus{
@@ -167,5 +171,16 @@ nav a.nav-link {
   }
   .navbar-brand{
     width: 7rem;
+  }
+  .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus{
+    border-bottom: 3px solid var(--primary-orange);
+    border-top: none;
+    margin-right: 60%;
+  }
+  
+  .navbar-nav > li > a:hover{
+    border-bottom: 3px solid var(--primary-orange);
+    border-top: none;
+    margin-right: 60%;
   }
 }
